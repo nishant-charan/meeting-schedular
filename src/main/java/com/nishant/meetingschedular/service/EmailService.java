@@ -15,4 +15,8 @@ public class EmailService {
   public List<UserEmail> getUserEmails() {
     return userEmailRepository.findAll();
   }
+
+  public Boolean authenticateEmail(String email, String password) {
+    return Boolean.TRUE;
+  }
 }

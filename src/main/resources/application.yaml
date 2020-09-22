@@ -1,0 +1,11 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /meeting-schedular-api
+spring:
+  application:
+    name: Meeting Schedular
+  datasource:
+    url: jdbc:mysql://localhost:3306/meeting_schedular
+    username: root
+    password: root
